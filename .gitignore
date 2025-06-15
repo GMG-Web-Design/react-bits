@@ -11,10 +11,11 @@ node_modules
 dist
 dist-ssr
 *.local
-public/default
-public/tailwind
-public/ts/default
-public/ts/tailwind
+# Registry files are needed for jsrepo to work
+# public/default
+# public/tailwind  
+# public/ts/default
+# public/ts/tailwind
 
 # Editor directories and files
 .vscode/*
