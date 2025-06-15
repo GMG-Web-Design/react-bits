@@ -1,8 +1,11 @@
 {
-	"name": "react-bits",
-	"private": true,
-	"version": "0.0.0",
+	"name": "@gmg-web-design/react-bits",
+	"version": "1.0.0",
 	"type": "module",
+	"repository": "https://github.com/GMG-Web-Design/react-bits.git",
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com"
+	},
 	"scripts": {
 		"dev": "vite",
 		"build": "npm run build:registry && vite build",

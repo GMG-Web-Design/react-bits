@@ -26,3 +26,6 @@ public/ts/tailwind
 *.njsproj
 *.sln
 *.sw?
+
+# NPM configuration with tokens
+.npmrc
